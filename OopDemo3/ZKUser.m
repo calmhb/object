@@ -13,6 +13,21 @@
 @synthesize name;
 @synthesize address;
 @synthesize age;
+//为ZKUser重写isEquals方法,提供自定义的相等标准
+-(BOOL) isEqual:(id)other{
+    //如果两个对象为同一个对象
+    if(self==other){
+        return YES;
+    }
+    //当other不为null,起他是FKUser类的实例时
+    if(other!=nil&&[other isMemberOfClass:ZKUser.class]){
+        ZKUser* target=(ZKUser*)other;
+        //比较属性,注意字符串必须使用isEqual比较
+        return [self.name isEqual:target.name]&&[self.address isEqual:target.address]&&(self.age==target.age);
+    }
+    return NO;
+}
+
 //重写NSObject的init方法
 -(id) init{
       //调用父类的init方法执行初始化，将初始化得到的对象赋值给selft对象
