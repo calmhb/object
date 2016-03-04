@@ -28,7 +28,8 @@ int main(int argc,char* argv[]){
     }
 }
 */
-
+/*
+ 重写NSObject的init方法
 #import "ZKUser.h"
 int main(int argc,char* argv[]){
     @autoreleasepool {
@@ -39,3 +40,29 @@ int main(int argc,char* argv[]){
         
     }
 }
+*/
+/*自定义init方法*/
+#import "ZKCar.h"
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        ZKCar* car1=[[ZKCar alloc] init];//创建对象
+        NSLog(@"car1的Brand:%@",car1.brand);//奔驰
+        NSLog(@"car1的model:%@",car1.model);//E3
+        NSLog(@"car1的color:%@",car1.color);//黑色
+        
+        ZKCar* car2=[[ZKCar alloc] initWithBrand:@"奥迪" model:@"Q7"];//创建对象
+        NSLog(@"car1的Brand:%@",car2.brand);//奥迪
+        NSLog(@"car1的model:%@",car2.model);//Q7
+        NSLog(@"car1的color:%@",car2.color);//黑色
+        
+        ZKCar* car3=[[ZKCar alloc] initWithBrand:@"福特" model:@"蒙迪欧" color:@"红色"];//创建对象
+        NSLog(@"car1的Brand:%@",car3.brand);//福特
+        NSLog(@"car1的model:%@",car3.model);//蒙迪欧
+        NSLog(@"car1的color:%@",car3.color);//红色
+    }
+}
+
+
+
+
+
