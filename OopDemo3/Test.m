@@ -76,7 +76,7 @@ int main(int argc,char* argv[]){
     }
 }
 */
-/*方法重写*/
+/*方法重写
 
 #import "ZKOstrich.h"
 int main(int argc,char* argv[]){
@@ -87,6 +87,105 @@ int main(int argc,char* argv[]){
         
     }
 }
+*/
+
+/*父类被覆盖的属性_a
+#import "ZKSub.h"
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        //实例化ZKSub
+        ZKSub* sub=[[ZKSub alloc] init];
+        [sub accessWoner];
+        
+    }
+}
+*/
+/*判断类型
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+         //实例化一个NSObject对象
+        //NSObject是所有类的父类，str实际类型应该是NSSting
+        NSObject* str=@"say hello";
+        NSLog(@"字符串是否为NSObject类的实例:%d",([str isKindOfClass:[NSObject class]]));//1
+        NSLog(@"字符串是否为NSString类的实例:%d",([str isKindOfClass:[NSString class]]));//1
+        NSLog(@"字符串是否为NSDate类的实例:%d",([str isKindOfClass:[NSDate class]]));//0
+        
+        NSInteger
+    }
+}
+*/
+/*包装类型
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+         //调用类方法将int类型的值包装成NSNumber对象
+        NSNumber* num=[NSNumber numberWithInt:20];
+        //将double类型的值转成NSNumber对象
+        NSNumber* de=[NSNumber numberWithDouble:3.4];
+        NSLog(@"结果:%d",[num intValue]);
+        NSLog(@"结果:%g",[de doubleValue]);
+        NSNumber* ch=[[NSNumber alloc] initWithChar:'J'];
+        NSLog(@"%@",ch);//74
+    }
+}
+*/
+/*对象的description
+#import "ZKPerson.h"
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        ZKPerson* person=[[ZKPerson alloc] initWithName:@"haoren"];
+        //打印person指向的ZKPerson对象
+        NSLog(@"%@",[person description]);//<ZKPerson: 0x1001024a0>
+        NSLog(@"%@",person);//<ZKPerson: 0x1001024a0>
+    }
+}
+*/
+/*值的比较*/
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        int a=65;
+        float f=65.0f;
+        NSLog(@"65==65.0 :%d ",a==f);//1,不关心类型
+        char c='A';
+        NSLog(@"65和'A'是否相等:%d",a==c);//1
+    
+        //定义指针类型
+       	NSString* str1 = [NSString stringWithFormat:@"hello"];
+        NSString* str2 = [NSString stringWithFormat:@"hello"];
+  
+
+        NSLog(@"str1==str2 :%d",(str1==str2));
+        NSLog(@"%p",str1);
+        NSLog(@"%p",str2);
+        NSLog(@"str1 isEqual:str2 :%d",[str1 isEqual:str2]);//1
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
