@@ -23,8 +23,7 @@
 }
 
 -(void) accessWoner{
-    NSLog(@"子类直接访问_a的值:%d",_a);
-    NSLog(@"通过super.a访问父类的被隐藏的值:%d",super.a);
+    NSLog(@"子类直接访问_a的值:%d",_a);//7
+    NSLog(@"通过super.a访问父类的被隐藏的值:%d",super.a);//5
 }
-
 @end
