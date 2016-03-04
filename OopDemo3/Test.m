@@ -41,7 +41,7 @@ int main(int argc,char* argv[]){
     }
 }
 */
-/*自定义init方法*/
+/*自定义init方法
 #import "ZKCar.h"
 int main(int argc,char* argv[]){
     @autoreleasepool {
@@ -61,7 +61,20 @@ int main(int argc,char* argv[]){
         NSLog(@"car1的color:%@",car3.color);//红色
     }
 }
+*/
 
+#import "ZKAPPle.h"
+/*类的继承*/
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+       //创建对象
+        ZKApple* apple=[[ZKApple alloc] init];
+        //ZKApple从ZKFriut继承weight属性
+        apple.weight=10;
+        //ZKApple从ZKFriut继承info方法
+        [apple info];
+    }
+}
 
 
 
