@@ -9,7 +9,4 @@
 @interface ZKItem : NSObject
 @property (nonatomic,assign) int price;
 @property (nonatomic,copy)NSString* name;
-
-
-
 @end
