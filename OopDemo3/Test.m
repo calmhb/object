@@ -64,7 +64,7 @@ int main(int argc,char* argv[]){
 */
 
 #import "ZKAPPle.h"
-/*类的继承*/
+/*类的继承
 int main(int argc,char* argv[]){
     @autoreleasepool {
        //创建对象
@@ -75,7 +75,18 @@ int main(int argc,char* argv[]){
         [apple info];
     }
 }
+*/
+/*方法重写*/
 
+#import "ZKOstrich.h"
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        ZKOstrich* os=[[ZKOstrich alloc] init];
+        //调用fly，调用子类的fly方法
+        [os fly];
+        
+    }
+}
 
 
 
