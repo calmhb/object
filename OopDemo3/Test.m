@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "ZKItem.h"
 #import "ZKItemView.h"
-
+/*  KVO演示
 int main(int argc,char* argv[]){
     @autoreleasepool {
         ZKItem* item=[[ZKItem alloc] init];//实例化对象
@@ -25,5 +25,17 @@ int main(int argc,char* argv[]){
         //修改item的属性值
         item.name=@"Swift";
         item.price=50;
+    }
+}
+*/
+
+#import "ZKUser.h"
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        ZKUser* user=[[ZKUser alloc] init];
+        NSLog(@"姓名:%@",user.name);//姓名:BetterMan
+        NSLog(@"年龄:%d",user.age);//年龄:100
+        NSLog(@"地址:%@",user.address);//地址:麓谷
+        
     }
 }
