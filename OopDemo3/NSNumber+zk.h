@@ -7,9 +7,9 @@
 //
 
 /*定义类别：扩展NSNumber的功能*/
-@interface NSNumber （zk）
+@interface NSNumber (zk)
 //在类别中定义4个方法
--(NSNubmer*）add:(double) num2;
+-(NSNumber*) add:(double) num2;
 -(NSNumber*) substract:(double) num2;
 -(NSNumber*) multiply:(double) num2;
 -(NSNumber*) divide:(double) num2;

@@ -139,7 +139,7 @@ int main(int argc,char* argv[]){
     }
 }
 */
-/*值的比较*/
+/*值的比较
 int main(int argc,char* argv[]){
     @autoreleasepool {
         int a=65;
@@ -160,7 +160,29 @@ int main(int argc,char* argv[]){
         
     }
 }
+*/
+/*类别*/
+#import "NSNumber+zk.h"
 
+int main(int argc,char* argv[]){
+    @autoreleasepool {
+        //实例化NSNumber对象
+        NSNumber* my=[NSNumber numberWithInt:2];
+        //调用add方法
+        NSNumber* add=[my add:1.2];
+        NSLog(@"%@",add);//3.2
+        
+        NSNumber* sub=[my substract:3.4];
+        NSLog(@"%@",sub);//-1.4
+        
+        NSNumber* div=[my divide:1.2];
+        NSLog(@"%@",div);//1.666667
+        
+        NSNumber* mul=[my multiply:3.4];
+        NSLog(@"%@",mul);//6.8
+        
+    }
+}
 
 
 
