@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040457881C891A660023661A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457871C891A660023661A /* main.m */; };
+		040457901C891AEB0023661A /* ZKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404578F1C891AEB0023661A /* ZKItem.m */; };
+		040457921C891F8F0023661A /* ZKItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457911C891F8F0023661A /* ZKItemView.m */; };
+		040457951C8925380023661A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457941C8925380023661A /* Test.m */; };
+		040457981C8929EE0023661A /* ZKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457971C8929EE0023661A /* ZKUser.m */; };
+		0404579B1C892F1E0023661A /* ZKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404579A1C892F1E0023661A /* ZKCar.m */; };
+		0404579E1C89374A0023661A /* ZKFruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0404579D1C89374A0023661A /* ZKFruit.m */; };
+		040457A11C8938A50023661A /* ZKApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457A01C8938A50023661A /* ZKApple.m */; };
+		040457A41C893F830023661A /* ZKBrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457A31C893F830023661A /* ZKBrid.m */; };
+		040457A71C8940540023661A /* ZKOstrich.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457A61C8940540023661A /* ZKOstrich.m */; };
+		040457AA1C895CD70023661A /* ZKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457A91C895CD70023661A /* ZKParent.m */; };
+		040457AD1C895E440023661A /* ZKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457AC1C895E440023661A /* ZKSub.m */; };
+		040457B01C8971F10023661A /* ZKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 040457AF1C8971F10023661A /* ZKPerson.m */; };
+		041976BE1C8D0A1C0050A4AB /* NSNumber+zk.m in Sources */ = {isa = PBXBuildFile; fileRef = 041976BD1C8D0A1C0050A4AB /* NSNumber+zk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,31 @@
 
 /* Begin PBXFileReference section */
 		040457841C891A660023661A /* OopDemo3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OopDemo3; sourceTree = BUILT_PRODUCTS_DIR; };
-		040457871C891A660023661A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0404578E1C891A7D0023661A /* ZKItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKItem.h; sourceTree = "<group>"; };
+		0404578F1C891AEB0023661A /* ZKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKItem.m; sourceTree = "<group>"; };
+		040457911C891F8F0023661A /* ZKItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKItemView.m; sourceTree = "<group>"; };
+		040457931C8920400023661A /* ZKItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKItemView.h; sourceTree = "<group>"; };
+		040457941C8925380023661A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		040457961C8929770023661A /* ZKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKUser.h; sourceTree = "<group>"; };
+		040457971C8929EE0023661A /* ZKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKUser.m; sourceTree = "<group>"; };
+		040457991C892E2C0023661A /* ZKCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKCar.h; sourceTree = "<group>"; };
+		0404579A1C892F1E0023661A /* ZKCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCar.m; sourceTree = "<group>"; };
+		0404579C1C8936B40023661A /* ZKFruit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFruit.h; sourceTree = "<group>"; };
+		0404579D1C89374A0023661A /* ZKFruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKFruit.m; sourceTree = "<group>"; };
+		0404579F1C8938060023661A /* ZKApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKApple.h; sourceTree = "<group>"; };
+		040457A01C8938A50023661A /* ZKApple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKApple.m; sourceTree = "<group>"; };
+		040457A21C893F5F0023661A /* ZKBird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKBird.h; sourceTree = "<group>"; };
+		040457A31C893F830023661A /* ZKBrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKBrid.m; sourceTree = "<group>"; };
+		040457A51C893FD50023661A /* ZKOstrich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKOstrich.h; sourceTree = "<group>"; };
+		040457A61C8940540023661A /* ZKOstrich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKOstrich.m; sourceTree = "<group>"; };
+		040457A81C895C5F0023661A /* ZKParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKParent.h; sourceTree = "<group>"; };
+		040457A91C895CD70023661A /* ZKParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKParent.m; sourceTree = "<group>"; };
+		040457AB1C895DFB0023661A /* ZKSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSub.h; sourceTree = "<group>"; };
+		040457AC1C895E440023661A /* ZKSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSub.m; sourceTree = "<group>"; };
+		040457AE1C8971A50023661A /* ZKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKPerson.h; sourceTree = "<group>"; };
+		040457AF1C8971F10023661A /* ZKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPerson.m; sourceTree = "<group>"; };
+		040457B11C89913F0023661A /* NSNumber+zk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+zk.h"; sourceTree = "<group>"; };
+		041976BD1C8D0A1C0050A4AB /* NSNumber+zk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+zk.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +93,31 @@
 		040457861C891A660023661A /* OopDemo3 */ = {
 			isa = PBXGroup;
 			children = (
-				040457871C891A660023661A /* main.m */,
+				0404578E1C891A7D0023661A /* ZKItem.h */,
+				040457941C8925380023661A /* Test.m */,
+				040457AE1C8971A50023661A /* ZKPerson.h */,
+				040457B11C89913F0023661A /* NSNumber+zk.h */,
+				041976BD1C8D0A1C0050A4AB /* NSNumber+zk.m */,
+				040457AF1C8971F10023661A /* ZKPerson.m */,
+				040457A21C893F5F0023661A /* ZKBird.h */,
+				040457A31C893F830023661A /* ZKBrid.m */,
+				040457A81C895C5F0023661A /* ZKParent.h */,
+				040457A91C895CD70023661A /* ZKParent.m */,
+				040457AB1C895DFB0023661A /* ZKSub.h */,
+				040457AC1C895E440023661A /* ZKSub.m */,
+				040457A51C893FD50023661A /* ZKOstrich.h */,
+				040457A61C8940540023661A /* ZKOstrich.m */,
+				040457961C8929770023661A /* ZKUser.h */,
+				040457971C8929EE0023661A /* ZKUser.m */,
+				0404578F1C891AEB0023661A /* ZKItem.m */,
+				040457911C891F8F0023661A /* ZKItemView.m */,
+				0404579C1C8936B40023661A /* ZKFruit.h */,
+				040457A01C8938A50023661A /* ZKApple.m */,
+				0404579F1C8938060023661A /* ZKApple.h */,
+				0404579D1C89374A0023661A /* ZKFruit.m */,
+				040457931C8920400023661A /* ZKItemView.h */,
+				040457991C892E2C0023661A /* ZKCar.h */,
+				0404579A1C892F1E0023661A /* ZKCar.m */,
 			);
 			path = OopDemo3;
 			sourceTree = "<group>";
@@ -118,7 +178,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040457881C891A660023661A /* main.m in Sources */,
+				0404579B1C892F1E0023661A /* ZKCar.m in Sources */,
+				040457A41C893F830023661A /* ZKBrid.m in Sources */,
+				040457A71C8940540023661A /* ZKOstrich.m in Sources */,
+				040457951C8925380023661A /* Test.m in Sources */,
+				040457921C891F8F0023661A /* ZKItemView.m in Sources */,
+				040457B01C8971F10023661A /* ZKPerson.m in Sources */,
+				040457A11C8938A50023661A /* ZKApple.m in Sources */,
+				0404579E1C89374A0023661A /* ZKFruit.m in Sources */,
+				040457901C891AEB0023661A /* ZKItem.m in Sources */,
+				040457AA1C895CD70023661A /* ZKParent.m in Sources */,
+				040457981C8929EE0023661A /* ZKUser.m in Sources */,
+				040457AD1C895E440023661A /* ZKSub.m in Sources */,
+				041976BE1C8D0A1C0050A4AB /* NSNumber+zk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +309,7 @@
 				0404578D1C891A660023661A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
